@@ -1,10 +1,11 @@
 .header-navigation {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem;
+  gap: 2rem;
   justify-content: space-between;
   align-items: center;
   background-color: var(--header-color);
+  padding: 2rem;
 }
 
 .header-logo {
@@ -12,6 +13,15 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-size: 2rem;
+}
+@media screen and (max-width:57.25rem) {
+  .header-navigation{
+    flex-direction: column;
+  }
+  .header-logo h2{
+    text-align: center;
+    margin: 1rem auto;
+  }
 }
 
 .navigation-items a {
@@ -28,8 +38,25 @@
   transition: background-position 0.3s ease-in-out;
   font-size: 1.6rem;
   text-transform: uppercase;
-
   text-decoration: none;
+  font-weight: 800;
+}
+
+@media screen and (max-width:41.063rem){
+  .navigation-items a {
+    font-size:1.5rem;
+    padding: 1rem;
+    font-weight: 800;
+  }
+  .header-logo{
+    margin-top:1.5rem;
+    font-size:1.6rem;
+  }
+}
+@media screen and (max-width:27.875rem){
+  .navigation-items a{
+    font-size:1rem;
+  }
 }
 
 .navigation-items a::before {
