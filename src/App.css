@@ -11,3 +11,10 @@ html {
   --header-color: #504d4d;
   --text-color: #fff;
 }
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
