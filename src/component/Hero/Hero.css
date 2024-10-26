@@ -1,0 +1,44 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+  z-index: -1;
+}
+
+.heros-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.heros-details {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heros-information {
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  text-transform: uppercase;
+}
