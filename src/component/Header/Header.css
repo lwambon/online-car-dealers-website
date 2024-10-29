@@ -9,11 +9,14 @@
 }
 
 .header-logo {
-  color: var(--text-color);
-  text-transform: uppercase;
+  color: #fff;
+  width: 14rem;
+  height: 8rem;
   letter-spacing: 1.2px;
-  font-size: 2rem;
+  font-size: 1rem;
+  border-radius: 70%;
 }
+
 @media screen and (max-width: 57.25rem) {
   .header-navigation {
     flex-direction: column;
