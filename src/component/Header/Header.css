@@ -14,11 +14,11 @@
   letter-spacing: 1.2px;
   font-size: 2rem;
 }
-@media screen and (max-width:57.25rem) {
-  .header-navigation{
+@media screen and (max-width: 57.25rem) {
+  .header-navigation {
     flex-direction: column;
   }
-  .header-logo h2{
+  .header-logo h2 {
     text-align: center;
     margin: 1rem auto;
   }
@@ -42,20 +42,20 @@
   font-weight: 800;
 }
 
-@media screen and (max-width:41.063rem){
+@media screen and (max-width: 41.063rem) {
   .navigation-items a {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     padding: 1rem;
     font-weight: 800;
   }
-  .header-logo{
-    margin-top:1.5rem;
-    font-size:1.6rem;
+  .header-logo {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
   }
 }
-@media screen and (max-width:27.875rem){
-  .navigation-items a{
-    font-size:1rem;
+@media screen and (max-width: 27.875rem) {
+  .navigation-items a {
+    font-size: 1rem;
   }
 }
 

@@ -1,0 +1,55 @@
+.sub-title {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 2rem;
+}
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem auto;
+}
+
+.education-card {
+  position: relative;
+  width: 35rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+}
+
+.education-card img {
+  width: 100%;
+  height: 30vh;
+  display: block;
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.5));
+}
+.university-title {
+  font-size: 2rem;
+}
+
+.university-details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.9rem;
+  margin-bottom: 6rem;
+}
+
+.education-card:hover .university-details,
+.education-card:hover .university-title {
+  opacity: 1;
+}
